@@ -1,0 +1,29 @@
+services:
+  mysql.db:
+    image: mysql : latest
+    restart: always
+    environment:
+      MySQL_ROOT_PASSWORD: 1234
+      MYSQL_DATABASE: wp_db
+      MYSQL_USER: wp_user
+      MYSQL_PASSWORD: 1234
+    volumes:
+      -  db_data:/var/lib/mysql
+
+  wordpress:
+    depends_on:
+      - mysql_db
+    image: wordpress:latest
+    restert: always
+    ports:
+      -8000:80
+    environment:
+      WORDPRESS_DB_HOST: mysql_db:3306
+      WORDPRESS_DB_USER: wp_user
+      WORDPRESS_DB_PASSWORD: 1234
+      WORDPRESS_DB_NAME: wp_db
+    volumes:
+      ["./:/var/www/html"]
+
+volumes:
+  db_data: {}
