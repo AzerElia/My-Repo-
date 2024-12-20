@@ -49,3 +49,129 @@ cd ..
 ls -a
 cd .
 exit
+ls -a
+cd wordpress
+ls -a
+vim docker_compose_yml
+docker-compose up -d
+apt  install docker-compose
+vim docker_compose_yml 
+ls -a
+cd .
+cd ..
+ls -a
+cd .jenkins/
+ls -a
+git clone https://github.com/Omareldeeb7/shared_repo_G1
+git clone https://github.com/AzerElia/shared_repo_G1.git
+mkdir myown 
+cd myown/
+git clone https://github.com/AzerElia/shared_repo_G1.git
+cd .
+cd ..
+ls -a
+cd shared_repo_G1/
+ls -a
+pwd
+cd ..
+cd myown/
+ls -a
+cd shared_repo_G1/
+pwd
+cd..
+cd ..
+mv /root/.jenkins/shared_repo_G1 /root/.jenkins/myown/shared_repo_G1
+ls -a
+cd myown/
+ls -a
+cd shared_repo_G1/
+ls -a
+cd shared_repo_G1/
+ls -a
+pwd
+cd ..
+pwd
+cp /root/.jenkins/myown/shared_repo_G1/shared_repo_G1/* /root/.jenkins/myown/shared_repo_G1
+cd
+cd.
+cd .
+pwd
+cd /root
+cd ..
+ls -a
+cd .
+ls -a
+cd .
+cd ..
+cd
+ls -a
+cp /root/.jenkins/myown/shared_repo_G1/shared_repo_G1/* /root/.jenkins/myown/shared_repo_G1
+cp -r /root/.jenkins/myown/shared_repo_G1/shared_repo_G1/* /root/.jenkins/myown/shared_repo_G1
+cd /root/.jenkins/myown/shared_repo_G1
+ls -a
+rm shared_repo_G1/
+rm -r shared_repo_G1/
+ls -a
+git add .
+git commit -m "Adding Mr. Omr Repo"
+git config --global user.email azerelia@outlook.com
+git config --global user.name "AzerElia"
+git commit -m "Adding Mr. Omr Repo"
+git stutus
+git status
+cd ..
+git clone https://github.com/AzerElia/My-Repo-Jenkins.git
+pwd
+ls -a
+cd My-Repo-Jenkins/
+pwd
+cd..
+cd ..
+cd myown/
+cd shared_repo_G1/
+ls -a
+pwd
+cd ..
+cp /root/.jenkins/myown/shared_repo_G1/* /root/.jenkins/My-Repo-Jenkins
+cp -r /root/.jenkins/myown/shared_repo_G1/* /root/.jenkins/My-Repo-Jenkins
+git add 
+git add .
+git stutus
+cd My-Repo-Jenkins/
+ls -a
+git add .
+git stutus
+git status
+git commit -m "Adding Mr. Omr Repo"
+git push
+git remote add origin https://github.com/AzerElia/My-Repo-Jenkins.git
+cd .
+cd ..
+git remote add origin https://github.com/AzerElia/My-Repo-Jenkins.git
+cd .
+cd ..
+ls -a
+git remote add origin https://github.com/AzerElia/My-Repo-Jenkins.git
+git branch -M master
+git push -u origin master
+git init
+git init -b main
+ls -a
+git add .
+git commit -m "Adding Mr. Omr Repo"
+git remote add origin https://github.com/AzerElia/My-Repo-Jenkins.git
+v
+git branch -M master
+git push -u origin master
+ls -a
+cd .jenkins/
+ls -a
+cd myown/
+ls -a
+git clone https://github.com/Omareldeeb7/shared_repo_G1
+cd shared_repo_G1/
+ls -a
+git clone https://github.com/Omareldeeb7/shared_repo_G1
+cd shared_repo_G1/
+ls -a
+cat Jenkinsfile 
